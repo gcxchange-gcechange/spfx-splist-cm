@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "poc-webpart-site-client-side-solution",
+    "id": "e33366e3-715d-4569-b042-f6699157edda",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "poc-webpart-site description"
+      },
+      "longDescription": {
+        "default": "poc-webpart-site description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "poc-webpart-site Feature",
+        "description": "The feature that activates elements of the poc-webpart-site solution.",
+        "id": "ee3c47d1-2648-4023-9cbe-4f29621a37dd",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/poc-webpart-site.sppkg"
+  }
+}
